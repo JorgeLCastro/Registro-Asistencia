@@ -1,0 +1,217 @@
+/* === HERO SECTION === */
+#hero {
+  background-image: url("../img/images.png");
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding: 100px 0;
+  text-align: center;
+  color: #333;
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  z-index: 1;
+}
+
+#hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* === CONTENIDO DOCENTE === */
+#contenidoDocente ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#contenidoDocente li {
+  margin-bottom: 6px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+#contenidoDocente h5 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* === FICHA DOCENTE === */
+.ficha-docente {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.ficha-docente h5 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.ficha-docente h6 {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #34495e;
+  font-weight: 500;
+}
+
+.ficha-docente .seccion {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #2c3e50;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.ficha-docente .row {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 15px;
+  color: #2c3e50;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.ficha-docente .col-md-2,
+.ficha-docente .col-md-3 {
+  padding: 10px;
+}
+
+.ficha-docente .col-12 {
+  margin-bottom: 20px;
+}
+
+.ficha-docente .text-center {
+  text-align: center;
+}
+
+/* === BOTÓN EDITAR === */
+#btnEditar {
+  font-family: 'Calibri', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #ffc107;
+  color: #212529;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  margin-left: 500px;
+  display: block;
+  width: fit-content;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease;
+}
+
+#btnEditar:hover {
+  background-color: #e0a800;
+  color: white;
+}
+
+/* === TARJETA PERSONAL === */
+.personal-card {
+  max-width: 500px;
+  margin: 20px auto;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 20px;
+  background: #fdfdfd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.personal-header h2 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.personal-header p {
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.personal-section {
+  margin-top: 20px;
+}
+
+.personal-section h4 {
+  margin-bottom: 5px;
+  color: #2980b9;
+  font-size: 16px;
+}
+
+.personal-section p {
+  margin: 2px 0;
+  font-size: 14px;
+  color: #34495e;
+}
+
+/* === MODAL FIXES === */
+body.modal-open #hero::before {
+  display: none !important;
+}
+
+/* === ESTILOS PARA DATOS ESPECÍFICOS === */
+#idDNI {
+  color: #212529;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#idCelular,
+#idDireccion,
+#idProvincia,
+#idZona,
+#idNombreInstitucion,
+#idGestion,
+#idTipoIE,
+#idCargo,
+#idTipoTrabajador,
+#idSubTipoTrabajador,
+#idSituacionLaboral,
+#idEmail,
+#idFechaNacimiento,
+#idSexo {
+  font-family: 'Calibri', sans-serif;
+}
+
+
+
+/* Estilos para la sección about */
+.about {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.about .card {
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about .card:hover {
+  transform: translateY(-5px);
+}
+
+.about .card-body {
+  padding: 2rem;
+}
+
+.about .btn {
+  border-radius: 25px;
+  padding: 10px 25px;
+}
+
