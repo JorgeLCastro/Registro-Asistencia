@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Desmadre del Sabor - Makis, Alitas & Chaufa</title>
+    <title>El Point del gordo Alonso - Makis, Alitas & Chaufa</title>
     <style>
         * {
             margin: 0;
